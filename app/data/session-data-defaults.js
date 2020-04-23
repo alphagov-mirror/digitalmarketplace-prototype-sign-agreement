@@ -21,4 +21,17 @@ module.exports = {
 
   // Insert values here
 
+  "company-name": "[company name]",
+  "company-registered-address": "[company address]",
+  "company-number": "[company number]",
+
+  "countersignature-full-name": "J. Doe",
+  "countersignature-role": "Director",
+
+  "email_address": "[email address]",
+  "full-name": "[full name]",
+  "role": "[role]",
+
+  "signature-date": "[date]",
+  "signature-time": "[time]"
 }
