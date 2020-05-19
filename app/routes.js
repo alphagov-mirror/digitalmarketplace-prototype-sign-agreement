@@ -24,6 +24,9 @@ router.post('/accept', function (req, res) {
 })
 
 router.get('/countersign', function (req, res) {
+  let date = moment().tz('Europe/London')
+  req.session.data['countersignature-date'] = date.format("D MMMM YYYY")
+
   res.redirect('/email-03')
 })
 
