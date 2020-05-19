@@ -27,6 +27,7 @@ module.exports = {
 
   "countersignature-full-name": "J. Doe",
   "countersignature-role": "Director",
+  "countersignature-date": "27 September 2020",
 
   "email_address": "[email address]",
   "full-name": "[full name]",
